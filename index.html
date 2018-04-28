@@ -40,6 +40,29 @@
         </form>
         <div class="login">
             <h1>layuiCMS-管理登录</h1>
+            <form class="layui-form" action="">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">登录账号</label>
+                    <div class="layui-input-inline pm-login-input">
+                        <input type="text" name="account" lay-verify="account" placeholder="请输入账号" value="lyblogscn" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">登录密码</label>
+                    <div class="layui-input-inline pm-login-input">
+                        <input type="password" name="password" lay-verify="passWord" placeholder="请输入密码" value="111111" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">人机验证</label>
+                    <div class="l-captcha layui-input-inline pm-login-input" data-site-key="ff9855aacec570bad53f89ad2cb04e83"></div>
+                </div>
+                <div class="layui-form-item" style="margin-top:25px;margin-bottom:0;">
+                <div class="layui-input-block">
+                    <button class="layui-btn" style="width:300px;" lay-submit="" lay-filter="login">立即登录</button>
+                </div>
+                </div>
+            </form>
         </div> 
     </div>
 
