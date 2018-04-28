@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-
-
 <head>
     <meta charset="utf-8" />
     <title>系统管理后台首页</title>
@@ -11,34 +9,14 @@
     <link href="../plugin/layui/css/layui.css" rel="stylesheet" />
     <!-- 本页样式 -->
     <link href="../css/index.css" rel="stylesheet" />
+    <script src="//captcha.luosimao.com/static/js/api.js"></script>
 </head>
 <body>
     <div class="mask"></div>
     <div class="main">
-        <form class="layui-form" action="">
-            <div class="layui-form-item">
-                <label class="layui-form-label">账号</label>
-                <div class="layui-input-inline pm-login-input">
-                    <input type="text" name="account" lay-verify="account" placeholder="请输入账号" value="lyblogscn" autocomplete="off" class="layui-input">
-                </div>
-            </div>
-            <div class="layui-form-item">
-                <label class="layui-form-label">密码</label>
-                <div class="layui-input-inline pm-login-input">
-                    <input type="password" name="password" lay-verify="passWord" placeholder="请输入密码" value="111111" autocomplete="off" class="layui-input">
-                </div>
-            </div>
-            <div class="layui-form-item">
-                <label class="layui-form-label">人机验证</label>
-                <div class="l-captcha" data-site-key="ff9855aacec570bad53f89ad2cb04e83"></div>
-            </div>
-            <div class="layui-form-item" style="margin-top:25px;margin-bottom:0;">
-                <div class="layui-input-block">
-                    <button class="layui-btn" style="width:230px;" lay-submit="" lay-filter="login">立即登录</button>
-                </div>
-            </div>
-        </form>
+        <div class="l-captcha" data-site-key="ff9855aacec570bad53f89ad2cb04e83"></div>
     </div>
+    
     <!-- layui.js -->
     <script src="../plugin/layui/layui.js"></script>
     <!-- layui规范化用法 -->
