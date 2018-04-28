@@ -1,8 +1,8 @@
 ﻿/*
 
 @Name：后台模板源码 
-@Author：Absolutely 
-@Site：http://www.lyblogs.cn
+@Author：bruce.guo 
+@Site：http://www.redevops.com
 
 */
 
