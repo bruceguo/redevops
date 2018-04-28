@@ -14,25 +14,26 @@
 <body>
     <div class="mask"></div>
     <div class="main">
+        <form class="layui-form" action="">
+            <div class="layui-form-item">
+                <label class="layui-form-label">登录账号</label>
+                <div class="layui-input-inline pm-login-input">
+                    <input type="text" name="account" lay-verify="account" placeholder="请输入账号" value="lyblogscn" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">登录密码</label>
+                <div class="layui-input-inline pm-login-input">
+                    <input type="password" name="password" lay-verify="passWord" placeholder="请输入密码" value="111111" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">人机验证</label>
+                <div class="l-captcha" data-site-key="ff9855aacec570bad53f89ad2cb04e83"></div>
+            </div>
 
-        <div class="layui-form-item">
-            <label class="layui-form-label">登录账号</label>
-            <div class="layui-input-inline pm-login-input">
-                <input type="text" name="account" lay-verify="account" placeholder="请输入账号" value="lyblogscn" autocomplete="off" class="layui-input">
-            </div>
-        </div>
-        <div class="layui-form-item">
-            <label class="layui-form-label">登录密码</label>
-            <div class="layui-input-inline pm-login-input">
-                <input type="password" name="password" lay-verify="passWord" placeholder="请输入密码" value="111111" autocomplete="off" class="layui-input">
-            </div>
-        </div>
-        <div class="layui-form-item">
-            <label class="layui-form-label">人机验证</label>
             <div class="l-captcha" data-site-key="ff9855aacec570bad53f89ad2cb04e83"></div>
-        </div>
-
-        <div class="l-captcha" data-site-key="ff9855aacec570bad53f89ad2cb04e83"></div>
+        </form>
     </div>
 
     <!-- layui.js -->
