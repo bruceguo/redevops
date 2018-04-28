@@ -54,7 +54,7 @@ body {
 }
 /*弹出框皮肤*/
 .pm-login-input {
-    width: 300px;
+    width: 300px !important;
 }
 
 body .pm-layer-login {
